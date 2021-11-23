@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AuthenticationComponent\AuthenticationComponent.csproj" />
+    <ProjectReference Include="..\AuthorizationComponent\AuthorizationComponent.csproj" />
+    <ProjectReference Include="..\Contracts\Contracts.csproj" />
+    <ProjectReference Include="..\ValidationComponent\ValidationComponent.csproj" />
+  </ItemGroup>
+
+</Project>
