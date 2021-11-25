@@ -1,0 +1,110 @@
+﻿<!Doctype html>
+<html>
+<style>
+    .undoButton {
+        background-color: #4CAF50;
+        border: 1px solid green;
+        color: white;
+        padding: 10px 24px;
+        cursor: pointer;
+        float: left;
+        margin-right: 10px;
+        margin-top: 10px;
+        width: 100px;
+    }
+
+    .button {
+        border-radius: 4px;
+        background-color: #f4511e;
+        border: none;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 28px;
+        padding: 20px;
+        width: 290px;
+        height: 100px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 10px;
+    }
+
+        .button span {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+        }
+
+            .button span:after {
+                content: '\00bb';
+                position: absolute;
+                opacity: 0;
+                top: 0;
+                right: -20px;
+                transition: 0.5s;
+            }
+
+        .button:hover span {
+            padding-right: 25px;
+        }
+
+            .button:hover span:after {
+                opacity: 1;
+                right: 0;
+            }
+
+    h1 {
+        font-size: 2rem;
+        text-transform: capitalize;
+    }
+</style>
+<body>
+    <div class="container" style="background-color:beige;margin-top:-20px">
+        <div class="row">
+            <div class="col-4">
+                @using (Html.BeginForm("Undo", "Home"))
+                {
+                    <input type="image" src="~/Images/Undo_1.png" alt="Submit" class="undoButton">
+                }
+            </div>
+            <div class="col-8" style="margin-top:10px">
+                <div class="row">
+                    <div class="col-6 text-right">
+                        <h1>Cart Item</h1>
+                    </div>
+                    <div class="col-6">
+                        <h1>:@ViewBag.TotalCartItems</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 text-right">
+                        <h1>Wish List</h1>
+                    </div>
+                    <div class="col-6">
+                        <h1>:@ViewBag.TotalWishListItems</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-top:30px">
+            <div class="col-3"></div>
+            <div class="col-6"><h1 style="color:#f4511e">Design Pattern Book On Sale !</h1></div>
+        </div>
+        <div class="row" style="margin-top:30px">
+            <div class="col-3"></div>
+            <div class="col-6"><img src="~/Images/DesignPatternBookImage.jpg" alt="book" width="600" /></div>
+        </div>
+        <div class="row" style="margin-top:20px; min-height:1000px">
+            <div class="col-3"></div>
+            @using (Html.BeginForm("AddToCart", "Home"))
+            {
+                <div class="col-4"><button class="button" type="submit"><span>Add To Cart </span></button></div>
+            }
+            @using (Html.BeginForm("MoveToWishList", "Home"))
+            {
+                <div class="col-4"><button class="button" type="submit"><span>Move To Wish List </span></button></div>
+            }
+        </div>
+    </div>
+</body>
+</html>
