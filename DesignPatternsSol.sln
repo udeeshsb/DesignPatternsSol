@@ -60,6 +60,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BehavioralDesignPatterns", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandPattern", "CommandPattern\CommandPattern.csproj", "{A52C043B-F8BF-4964-A973-A630586087F1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandPatternConsoleApp", "CommandPatternConsoleApp\CommandPatternConsoleApp.csproj", "{36B21212-0B55-4B2D-8773-B7716EE513EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -150,6 +152,10 @@ Global
 		{A52C043B-F8BF-4964-A973-A630586087F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A52C043B-F8BF-4964-A973-A630586087F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A52C043B-F8BF-4964-A973-A630586087F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36B21212-0B55-4B2D-8773-B7716EE513EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36B21212-0B55-4B2D-8773-B7716EE513EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36B21212-0B55-4B2D-8773-B7716EE513EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36B21212-0B55-4B2D-8773-B7716EE513EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -178,6 +184,7 @@ Global
 		{CE013D6B-3445-474A-A58F-31C348279364} = {D2A1705D-2085-4C97-87B6-4C199703DDE9}
 		{A6E7282D-4476-41B5-BD73-7A9C286E8F0A} = {D2A1705D-2085-4C97-87B6-4C199703DDE9}
 		{A52C043B-F8BF-4964-A973-A630586087F1} = {D2A1705D-2085-4C97-87B6-4C199703DDE9}
+		{36B21212-0B55-4B2D-8773-B7716EE513EB} = {D2A1705D-2085-4C97-87B6-4C199703DDE9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C612049A-7C6F-4D92-A15C-A587AE1BAFB9}
