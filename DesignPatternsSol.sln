@@ -68,6 +68,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibilityPatter
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatorPattern", "MediatorPattern\MediatorPattern.csproj", "{ACB544C1-0EB8-4E01-9AF1-B403336926C9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatePattern", "StatePattern\StatePattern.csproj", "{C6565D1C-865F-42A4-8711-BD3F5B1E9A14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatePattern_NotRefactored", "StatePattern_NotRefactored\StatePattern_NotRefactored.csproj", "{DDF6DF55-0A89-4AF3-A295-DCF4FF85D77B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -174,6 +178,14 @@ Global
 		{ACB544C1-0EB8-4E01-9AF1-B403336926C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACB544C1-0EB8-4E01-9AF1-B403336926C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACB544C1-0EB8-4E01-9AF1-B403336926C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6565D1C-865F-42A4-8711-BD3F5B1E9A14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6565D1C-865F-42A4-8711-BD3F5B1E9A14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6565D1C-865F-42A4-8711-BD3F5B1E9A14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6565D1C-865F-42A4-8711-BD3F5B1E9A14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDF6DF55-0A89-4AF3-A295-DCF4FF85D77B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDF6DF55-0A89-4AF3-A295-DCF4FF85D77B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDF6DF55-0A89-4AF3-A295-DCF4FF85D77B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDF6DF55-0A89-4AF3-A295-DCF4FF85D77B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -206,6 +218,8 @@ Global
 		{4329155D-6A1F-46BC-801C-791C71C73F57} = {D2A1705D-2085-4C97-87B6-4C199703DDE9}
 		{2A17A95F-B874-43B1-B188-2A1A66A27C54} = {D2A1705D-2085-4C97-87B6-4C199703DDE9}
 		{ACB544C1-0EB8-4E01-9AF1-B403336926C9} = {D2A1705D-2085-4C97-87B6-4C199703DDE9}
+		{C6565D1C-865F-42A4-8711-BD3F5B1E9A14} = {D2A1705D-2085-4C97-87B6-4C199703DDE9}
+		{DDF6DF55-0A89-4AF3-A295-DCF4FF85D77B} = {D2A1705D-2085-4C97-87B6-4C199703DDE9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C612049A-7C6F-4D92-A15C-A587AE1BAFB9}
